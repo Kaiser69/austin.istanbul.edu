@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Austin Language Center</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" type="image/png" sizes="16x16" href="./English/img/icons/favicon.png">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Libraries Stylesheet -->
+    <link href="./English/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="./English/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./English/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./English/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Main Stylesheet -->
+    <link href="./English/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center 
+    justify-content-center">
+        <div class=" loader spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;"
+         role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-topbar p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 d-none d-lg-flex justify-content-center">
+            <div class="col-4 px-5 ">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-3">
+                    <a class="text-body px-2" href="tel:+90 501 244 3432">
+                        <i class="fa fa-phone-alt text-danger me-2"></i>+90 501 244 3432</a>
+                              <a class="text-body px-2" href="mailto:mahinur@austin.edu.my">
+                        <i class="fa fa-envelope-open text-danger me-2"></i>
+                        mahinur@austin.edu.my</a>
+                </div>
+            </div>
+            <div class="col-4 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/austinenglishtr/" 
+                    target="_blank"><i class="fab fa-instagram"></i></a>                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <div href="./English/index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-danger m-0"><img class="me-3" src="./English/img/icons/icon-1.png" 
+                style="height: 42.5px; color: #f75757;"  
+                alt="Icon"> <a href="#" class="mobile text-danger">İstanbul</a></h1>
+        </div>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="./English/index.html" class="nav-item nav-link active">Home</a>
+                <a href="./English/enroll.html" class="nav-item nav-link">Enroll</a>
+                <a href="./English/fee.html" class="nav-item nav-link">Course Fee</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu border-0 m-0">
+                        <a href="./English/general_English.html" class="dropdown-item active">General English</a>
+                        <a href="./English/kids_Teens.html" class="dropdown-item">Kids&Teens</a>
+                        <a href="./English/exam.html" class="dropdown-item ">Exam Preparation</a>
+                        <a href="./English/appointment.html" class="dropdown-item">Appointment</a>
+                        <a href="./English/testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="./English/yds.html" class="dropdown-item">YDS</a>
+                        <a href="https://www.studyinturkiye.gov.tr/StudyinTurkey/StudyinTurkey?Lg=DVuMzG7IwBA=" 
+                        class="dropdown-item" target="_blank">
+                            Why study in Turkiye</a>
+                    </div>
+                </div>
+                <a href="./English/contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a class="text-danger px-2" href="./Turkish/index.html" ><img src="./Turkish/img/icons/tur.png" 
+                style="height: 24px;" >  Türkçe</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+     
+    
+    <!-- Carousel Start -->
+    <div  class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative " data-dot="<img src='./English/img/carousel-1.jpg'>">
+                <img class="img-fluid" src="./English/img/carousel-1.jpg" alt="carousel image">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h3 class="display-1 text-white animated slideInDown">
+                                    Your Gate Way To The World Start From Here</h3>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">
+                                    English is the language of science, aviation, computers, diplomacy, 
+                                    and tourism. Our process is academically rigorous and designed around 
+                                    your needs and objectives.</p>
+                                <a href="./English/enroll.html"  class="btn btn-outline-danger  py-2 px-5 animated slideInLeft">
+                                    Start your journey</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='./English/img/carousel-2.jpg'>">
+                <img class="img-fluid" src="./English/img/carousel-2.jpg" alt="carousel image">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            
+                            <div class="col-10 col-lg-8">
+                                <h3 class="display-1 text-white animated slideInDown">
+                                    Austin Language Center
+                                </h3>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">
+                                    Austin Language Centre (ALC) offers classes that are diverse in nature with its students coming from 
+                                    all around the world. Our Language School is approved and accredited by the Turkish Ministry of 
+                                    National Education.
+                                </p>
+                                <a href="./English/enroll.html"  class="btn btn-outline-danger  py-2 px-5 animated slideInLeft">
+                                    Start your journey</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='./English/img/carousel-3.jpg>">
+                <img class="img-fluid" src="./English/img/carousel-3.jpg" alt="carousel image">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h3 class="display-1 text-white animated slideInDown">
+                                    English Course Design
+                                </h3>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">
+                                    Courses are bespoke and designed to suit your objectives, budget and schedule.
+                                     We offer a variety of solutions and can accommodate any group size, duration 
+                                     and lesson scheduling.
+                                </p>
+                                <a href="./English/enroll.html" class="btn btn-outline-danger  py-2 px-5 animated slideInLeft">
+                                    Start your journey</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-xxl">
+        <div class="container ">
+            <div class="row mb-5">
+                <div class="col-lg-7 mb-5">
+                    <div class="section-title">
+                        <span class="h6 text-color">We are creative & expert people</span>
+                        <h2 class="mt-3 content-title">Check what Austin offers</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                        <div class="fact-icon">
+                            <i class="fa-solid fa-globe" style="height: 66px;"></i>
+                        </div>
+                        <h3 class="mb-3">Language Center</h3>
+                        <p class="mb-0">At Austin Istanbul, we offer a wide range of programs for kids and exam-oriented purposes.
+                             Our school adopts a multidimensional education system to help students learn English quickly and use 
+                             it effectively <a class="a-tag" href="https://alc.austin.edu.my/" target="_blank" 
+                             style="color: #f75757;">More ▶︎</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                        <div class="fact-icon">
+                            <i class="fa-solid fa-chalkboard-user" style="height: 56px;"></i>
+                        </div>
+                        <h3 class="mb-3">Training Center</h3>
+                        <p class="mb-0">Austin Training Center offers a wide range of courses such as technical courses in Oil & Gas sector,
+                             Management courses, Financial Literacy courses among others. We offer Physical classroom or  distance learning 
+                             from Malaysian <a class="a-tag"  href="https://atm.austin.edu.my/" target="_blank" 
+                             style="color: #f75757;">More ▶︎</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                        <div class="fact-icon">
+                            <i class="fa-solid fa-code" style="height: 56px;"></i>
+                        </div>
+                        <h3 class="mb-3">IT - Information Technology</h3>
+                        <p class="mb-0">IT courses include Frontend, backend, fullstack and database, computer systems administrator, 
+                            information security analyst, computer network architect, web developer, 
+                            and digital design.  <a class="a-tag"  href="https://kaiser69.github.io/digital_solution/" 
+                            target="_blank"  style="color: #f75757;">More ▶︎</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="./English/img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="./English/img/about-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h4 class="section-title">Austin</h4>
+                    <h1 class="mb-4">We are Perfect Solution</h1>
+                    <p class="mb-4">
+                        We provide a varied, challenging and exciting range of educational classes. To ensure the highest of teaching standards
+                         we maintain limited places, guaranteeing small class sizes and individual student attention.
+                    </p>
+                    <p class="mb-4">
+                        Our learning outcomes provide new opportunities for students, including the chance to appreciate different perspectives.
+                         Our main objective is to provide a world education, see our students grow in confidence and ultimately make good 
+                         life decisions. We want to prepare them for the future and give them the tools to flourish.
+                    </p>
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-danger" 
+                        style="width: 120px; height: 120px;">
+                            <h1 class="display-1 mb-n2" data-toggle="counter-up">9</h1>
+                        </div>
+                        <div class="ps-4">
+                            <h3>Years</h3>
+                            <h3>Training</h3>
+                            <h3 class="mb-0">Experience</h3>
+                        </div>
+                    </div>
+                    <a class="btn btn-outline-danger  py-3 px-5" href="https://alc.austin.edu.my/" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Our Courses</h4>
+                <h1 class="text-center  mb-4">Achieve your ambitions on one of our English language courses</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <div class="service-text p-5">
+                            <i class="fa-solid fa-globe" style="height: 61px;"></i>
+                            <h3 class="mb-3">General English</h3>
+                            <p class="mb-4">The courses provides a balanced program, focusing on speaking, listening, reading, and 
+                                writing while covering essential grammar, vocabulary, pronunciation, idioms, and colloquial language. </p>
+                            <a class="btn" href="./English/general_English.html"><i class="fa fa-plus text-primary me-3"></i>More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <div class="service-text p-5">
+                            <i class="fa-solid fa-children" style="height: 61px;"></i>
+                            <h3 class="mb-3">English for Kids and Teens</h3>
+                            <p class="mb-4">The Young Learners/kids’ course is specially designed for teaching English language to kids.
+                                 Contribute to your children’s future by joining our Face-to-Face and Online English education programs. </p>
+                            <a class="btn" href="./English/kids_Teens.html"><i class="fa fa-plus text-primary me-3"></i>More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <div class="service-text p-5">
+                            <i class="fa-solid fa-chart-column" style="height: 61px;"></i>
+                            <h3 class="mb-3">Intensive English</h3>
+                            <p class="mb-4">The course is suitable for students who want to reach their target faster. 
+                                The program contains more classes compared to the Standard program. There will be a maximum of 10 
+                                students per class and specific start dates.</p>
+                            <a class="btn" href="./English/fee.html"><i class="fa fa-plus text-primary me-3"></i>More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <div class="service-text p-5">
+                            <i class="fa-solid fa-business-time" style="height: 61px;"></i>
+                            <h3 class="mb-3">Business English</h3>
+                            <p class="mb-4">This programme combines General English, Skills for Career Success and focused Business 
+                                Communication Skills sessions to create the perfect course to communicate confidently at work.</p>
+                            <a class="btn" href="https://alc.austin.edu.my/business-english/">
+                                <i class="fa fa-plus text-primary me-3"></i>More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <div class="service-text p-5">
+                            <i class="fa-solid fa-school" style="height: 61px;"></i>
+                            <h3 class="mb-3">Exam Preparation</h3>
+                            <p class="mb-4">Whether you need IELTS, TOEFL or Cambridge English for university, our exam preparation courses 
+                                 give you the skills you need to take your exam with confidence.</p>
+                            <a class="btn" href="./English/exam.html"><i class="fa fa-plus text-primary me-3"></i>More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <div class="service-text p-5">
+                            <i class="fa-solid fa-file-pen" style="height: 61px;"></i>
+                            <h3 class="mb-3">YDS Preparation Program</h3>
+                            <p class="mb-4">Foreign Language Placement Exam (YDS) is an language exam administered by ÖSYM.
+                                You can take advantage of the opportunities offered by Austin Language center to achieve success in the YDS exam.
+                            </p>
+                            <a class="btn" href="./English/yds.html"><i class="fa fa-plus text-primary me-3"></i> More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">Choose Us!</h4>
+                    <h1 class=" mb-4">Why study Austin?</h1>
+                    <p class="mb-4">We believe in the power of language to change lives and the world. This strives us to constantly 
+                        improve and develop new methodologies to make the process of language learning  worthwhile.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <h3 class="section-title">01.</h3>
+                                <div class="ms-4">
+                                    <h3 class="section-title">Our Mission</h3>
+                                    <p class="mb-4"> Austin Language Center (ALC) offers classes that are diverse in nature with its 
+                                        students coming from all around the world. Studying in ALC, exposes students to various cultures,
+                                         traditions and making friends for life, besides improving their communication skills .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <h3 class="section-title">02.</h3>
+                                <div class="ms-4">
+                                    <h3 class="section-title">Our Vision</h3>
+                                    <p class="mb-4"> To take the lead in teaching English Language globally for foreign and local students in a 
+                                        fun and creative approach.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <h3 class="section-title">03.</h3>
+                                <div class="ms-4">
+                                    <h3 class="section-title">Our Approach</h3>
+                                    <p class="mb-4"> To offer superior education in the English Language for international and local 
+                                        students, we emphasize on teaching General English and preparing them successfully for the IELTS 
+                                        examination as entry to college, university and job positions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-img">
+                        <img class="img-fluid" src="./English/img/service-6.jpg" alt="">
+                        <img class="img-fluid" src="./English/img/service-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <section id="hero1" class="img-fluid hero wow fadeInUp" data-wow-delay="0.1s"
+     style="background: url(./Turkish/img/bg-1.jpg) center center no-repeat fixed;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;">
+        <div class="inner" style=" min-height:600px;
+        position: relative;">
+          <div class="copy" style="  position:absolute; 
+          top:50%; 
+          height:10em; 
+          margin-top:-5em; 
+          width:100%;
+          text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+          
+          ">
+          <h1 class="container-fluid display-4 text-center text-white">
+            Speak a new language so that the world will be a new world.</h1>
+          <p class="text-center text-white float-center">- Mevlânâ Celâleddîn-i Rûmî</p>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Team Members</h4>
+                <h1 class="text-center  mb-4">We Are The Creative Teachers that will help you on your journey</h1>
+            </div>
+            <div class="row g-0 team-items">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item box-shadow  position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./English/img/team-1.jpg" alt="avatar">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">English Teacher</h3>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item  box-shadow  position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./English/img/team-2.jpg" alt="avatar">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">English Teacher</h3>
+                            <span class="text-primary">Dr in English</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item box-shadow  position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./English/img/team-3.jpg" alt="avatar">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">English Teacher</h3>
+                            <span class="text-primary">Dr in English literature</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item box-shadow  position-relative">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="./English/img/team-4.jpg" alt="avatar">
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h3 class="mt-2">English Teacher</h3>
+                            <span class="text-primary">Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">Appointment</h4>
+                    <h1 class=" mb-4">Make An Appointment To Start Your journey with Austin</h1>
+                    <p class="mb-4"> We would love to host you at Austin! If you would like to visit us, we highly recommend you make a 
+                        prior appointment with Admissions. You may do that in the following ways:</p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" 
+                                style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-phone-alt text-danger"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Call Us Now</p>
+                                    <a class="text-body px-2" href="tel:+90 501 244 3432">
+                                        +90 501 244 3432</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" 
+                                style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-envelope-open text-danger"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Mail Us Now</p>
+                                    <h3 class="mb-0"> <a class="text-body px-2" href="mahinur@austin.edu.my">
+                                        mahinur@austin.edu.my</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-4 wow fadeInUp my-3" data-wow-delay="0.1s">
+                            <div class="col-lg-6">
+                                <div class="d-flex">
+                            <a href="https://api.whatsapp.com/send?phone=905466387653"  style="display: table; font-family: 
+                            sans-serif; 
+                            text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; 
+                            border-radius: 2em; font-weight: bold; background: #25d366 
+                            url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') 
+                            no-repeat 1.5em center; background-size: 1.6em;" target="_blank">Call with WhatsApp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <form action="send-email.php" method="post" name="contactform">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" name="Name" id="name" placeholder="Your Name" required="required"
+                             style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="email" class="form-control" placeholder="Your Email" name="Email" id="email" 
+                            required="required" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Mobile" name="Mobile" id="mobile"
+                            required="required" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <select class="form-select" style="height: 55px;" required="required" name="Location" id="location" >
+                                <option selected>Choose Location</option>
+                                <option value="Campus ">Campus study</option>
+                                <option value="Online">Online study</option>
+                                <option value="Malaysia">Study in Malaysia</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="date" id="date" data-target-input="nearest">
+                                <input type="text"
+                                    class="form-control datetimepicker-input"
+                                    placeholder="Choose Date" data-target="#date" name="MeetingDate" id="date" data-toggle="datetimepicker" 
+                                    style="height: 55px;">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="time" id="time" data-target-input="nearest">
+                                <input type="text"
+                                    class="form-control datetimepicker-input"
+                                    placeholder="Choose Time" name="MeetingTime" id="time" data-target="#time" data-toggle="datetimepicker" 
+                                    style="height: 55px;">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" required="required" name="Message" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-danger w-100 py-3" type="submit"  value="Send Message" >Book Appointment</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Testimonial</h4>
+                <h1 class=" text-center  mb-4">Thousands Of Students Who Trust Us And Our Teaching</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='./English/img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">"Austin is a very efficient institute for anyone wanting to improve his/her English skills. Several topics are developed 
+                        to help  students such as: listening, speaking, vocabulary, grammar, and cultural aspects. Austin is very flexible by proposing one-month
+                         courses which can be continued or stopped easily. Austin has also a very good price-quality ratio." </p>
+                         <h3>Merziye Aziz</h3>
+                         <span class="text-primary">Student</span>
+                     </div>
+                     <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='./English/img/testimonial-2.jpg' alt=''>">
+                         <p class="fs-5">"If you are looking for English courses to improve your English, this is the best course you can take. You can learn many 
+                             words and phrases that you will actually use in real life. If you need help with your English, you can always ask the teacher for
+                              help. You can also participate in many interesting activities and meet new people." </p>
+                         <h3>Ali Kamal Algalal</h3>
+                         <span class="text-primary">Student</span>
+                     </div>
+                     <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='./English/img/testimonial-3.jpg' alt=''>">
+                         <p class="fs-5">"Austin is the best English school that I attended. The owner is a very kind and helpful person who can best advise 
+                            what is the right path for each of us... There are a lot of different classes and you can choose between collective (e.g. listening 
+                            and speaking, vocabulary, core with grammar..) and private (super helpful!). Also the price is super appropriate." </p>
+                         <h3>Fatma Yağmur Kutlu</h3>
+                         <span class="text-primary">Student</span>
+                </div>
+            </div>     
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- section Ministry logo  -->
+        
+    <section class="container-fluid text-center my-5" style="line-height: 134px; padding-top: 5rem;">
+
+        <h2 class="container-xxl text-center text-danger mb-4">Our Language School is approved and accredited by the Turkish and 
+            Malaysian Ministry <br>of National Education.</h2>
+            <div class="row my-5" style="padding-top: 66px; padding-bottom: 66px;">
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <img src="./English/img/moeturkiye.png" alt="" style="height: 54px;">
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                   <img src="./English/img/icons/icon-1.png" alt="" style="height: 54px;">
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                   <img src="./English/img/cambradge.png" alt="" style="height: 64px;">
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                   <img src="./English/img/0.png" alt="" style="height: 54px;">
+                 </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                   <img src="./English/img/ielts-toefl.jpg" alt="" style="height: 54px;">
+                 </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                 <img src="./English/img/maem.png" alt="" style="height: 54px;">
+               </div>
+        </div>
+       
+    </section>
+    
+    <!-- section Ministry logo  end-->
+    <!-- Footer Start -->
+    <div class="container-fluid text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Kuala Lumpur - Office</h3>
+                    <p class="mb-2"><a class="text-body px-2" href="https://goo.gl/maps/sTgnNw1kPMjjcPfu8" target=”_blank”>
+                        <i class="fa fa-map-marker-alt text-danger me-3"></i>
+                        54200 Kuala Lumpur, Malaysia. </a>
+                    </p>
+                    
+                    <p class="mb-2"> <a class="text-body px-2" href="tel:+603-4026-9262">
+                        <i class="fa fa-phone-alt text-danger me-2"></i>+603-4026-9262</a></p>
+                    <p class="mb-2">
+                        <a class="text-body px-2" href="mailto:info@austin.edu.my">
+                            <i class="fa fa-envelope text-danger me-3"></i> info@austin.edu.my</a>
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="me-1" href="https://austin.edu.my/" target="_blank"><i class="fa-brands fa-internet-explorer text-danger"></i>
+                             https://austin.edu.my</a>
+                   
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Istanbul - office</h3>
+                    <p class="mb-2"><a class="text-body px-2" href="https://goo.gl/maps/bixNSEX75rUhRJ3u7" target=”_blank”>
+                        <i class="fa fa-map-marker-alt text-danger me-3"></i>
+                      Şişli/Istanbul, Turkey </a>
+                    </p>
+                    <p class="mb-2"> <a class="text-body px-2" href="tel:+90 212 234 3432">
+                        <i class="fa fa-phone-alt text-danger me-2"></i>+90 212 234 3432</a></p>
+                    <p class="mb-2">
+                        <a class="text-body px-2" href="mailto:mahinur@austin.edu.my">
+                            <i class="fa fa-envelope text-danger me-3"></i> mahinur@austin.edu.my</a>
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1"href="https://www.instagram.com/austinenglishtr/" 
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Quick Links</h3>
+                    <a class="btn btn-link" href="./English/enroll.html">Enroll</a>
+                    <a class="btn btn-link" href="./English/fee.html">Course Fee</a>
+                    <a class="btn btn-link" href="./English/kids_Teens.html">Kids&Teens</a>
+                    <a class="btn btn-link" href="./English/general_English.html">General English</a>
+                    <a class="btn btn-link" href="./English/yds.html">YDS</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Newsletter</h3>
+                    <p>Subscribe to get latest news article and resources</p>
+                    <form class="position-relative mx-auto" style="max-width: 400px;" action="https://formsubmit.co/mahinur@austin.edu.my" 
+                    method="POST" >
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" name="Email" type="email" placeholder="Your email" required="required">
+                        <button type="submit" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Austin</a>, Language center Istanbul.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed 2023 <a href="./English/index.html">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+         
+      
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./English/lib/wow/wow.min.js"></script>
+    <script src="./English/lib/easing/easing.min.js"></script>
+    <script src="./English/lib/waypoints/waypoints.min.js"></script>
+    <script src="./English/lib/counterup/counterup.min.js"></script>
+    <script src="./English/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./English/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="./English/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="./English/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" 
+    integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Template Javascript -->
+    <script src="./English/js/main.js"></script>
+</body>
+
+</html>
