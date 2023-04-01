@@ -1001,7 +1001,8 @@ h6,
     transform: none;
   }
 }
-
-/*******===whatsApp===******/
-
-
+@media screen {
+  html, body {
+    width:      100%; 
+    overflow-x: hidden;
+  }}
