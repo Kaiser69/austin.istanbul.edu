@@ -10,7 +10,7 @@ $location = $_POST["location"];
 $message = $_POST["message"];
 $to = "mahinur@austin.edu.my";
 $subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n  Mobile = " . $mobile . "\r\n  Date = " . $date . "\r\n  Time = " . $time . " \r\n  Location = " . $location . "\r\n Message =" . $message;
 $headers = "From: mahinur@austin.edu.my" . "\r\n" .
 "CC: mahinur@austin.edu.my";
 if($email!=NULL){
