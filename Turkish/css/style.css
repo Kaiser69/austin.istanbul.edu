@@ -1077,3 +1077,8 @@ h6,
   transform: translate(0%,-50%);
   -ms-transform: translate(0%,-50%);
 }
+@media screen {
+  html, body {
+    width:      100%; 
+    overflow-x: hidden;
+  }}
